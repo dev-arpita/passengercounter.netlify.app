@@ -10,12 +10,15 @@
 //function increment() {
 //     console.log('count is zero' );
 // }
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
+let lapsCompleted = 0
 
-// Create a function that logs out the sum of all the lap times
-function LapTime() {
-    console.log(lap1 + lap2 + lap3);
+// Create a function that increments the lapsCompleted variable with one
+// Run it three times
+
+function lapsIncrement() {
+    lapsCompleted = lapsCompleted + 1
 }
-LapTime();
+lapsIncrement();
+lapsIncrement();
+lapsIncrement();
+console.log(lapsCompleted)
