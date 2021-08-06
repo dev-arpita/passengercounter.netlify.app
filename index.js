@@ -19,15 +19,21 @@ increment();
      console.log(count);
  }
  save();
- 
-// Create two variables, name and greeting. The name variable should store your name,
-// and the greeting should store e.g. "Hi, my name is "
-let name ='Arpita';
-let greeting = 'Hi, my name is ';
-
-// Create a third variable, myGreeting, that contatenates the two strings
-myGreeting = greeting + name ;
-// Log myGreeting to the console
-console.log(myGreeting);
 
 
+let name = 'Arpita Roy';
+let age = 25;
+let myAge = " my age is "
+let greeting = "Hi, my name is "
+let myGreeting = greeting + name + ',' + myAge + age + '.';
+console.log(myGreeting)
+
+// let points = 4
+// let bonusPoints = "10"
+
+// let totalPoints = points + bonusPoints = '410'
+
+console.log(4 + 5) // 9
+console.log("2" + "4")//24
+console.log("5" + 1)//51
+console.log(100 + "100")//100100
