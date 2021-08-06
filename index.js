@@ -19,3 +19,11 @@ increment();
      console.log(count);
  }
  save();
+ //Strings
+ let username = "Arpita"
+ console.log(username);
+
+// Create a variable, message, that stores the string: "You have tree new notifications"
+let message = 'you have three new notifications '
+console.log(message);
+console.log(message + username + "!");
