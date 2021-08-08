@@ -21,19 +21,14 @@ increment();
  save();
 
 
-let name = 'Arpita Roy';
-let age = 25;
-let myAge = " my age is "
-let greeting = "Hi, my name is "
-let myGreeting = greeting + name + ',' + myAge + age + '.';
-console.log(myGreeting)
+/// Grab the welcome-el paragraph and store it in a variable called welcomeEl
+let welcomeEl = document.getElementById("welcome-el");
 
-// let points = 4
-// let bonusPoints = "10"
+// Create two variables (name & greeting) that contains your name
+let name = " Arpita Roy ";
+let greeting = "Welcome back ";
+console.log(greeting);
+// and the greeting we want to render on the page
+welcomeEl.innerText = greeting + name;
+// Render the welcome message using welcomeEl.innerText
 
-// let totalPoints = points + bonusPoints = '410'
-
-console.log(4 + 5) // 9
-console.log("2" + "4")//24
-console.log("5" + 1)//51
-console.log(100 + "100")//100100
