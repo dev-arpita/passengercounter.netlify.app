@@ -25,10 +25,14 @@ increment();
 let welcomeEl = document.getElementById("welcome-el");
 
 // Create two variables (name & greeting) that contains your name
-let name = " Arpita Roy ";
+let name = " Arpita Roy";
 let greeting = "Welcome back ";
 console.log(greeting);
 // and the greeting we want to render on the page
 welcomeEl.innerText = greeting + name;
-// Render the welcome message using welcomeEl.innerText
+// Render the welcome message using welcomeEl.innerTexts
 
+// Add an emoji to the end! 👋
+// WRITE YOUR CODE BELOW HERE
+// HINT: count = count + 1
+welcomeEl.innerText = welcomeEl.innerText + '👋';
