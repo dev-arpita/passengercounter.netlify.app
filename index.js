@@ -9,7 +9,7 @@ let count = 0;
 // increment the count variable when the button is clicked
 function increment() {
     count += 1;
-    countEl.innerText = count;
+    countEl.textContent = count;
 }
 increment();
 
@@ -18,8 +18,8 @@ let saveEl = document.getElementById("save-el");
 
 function save() {
     // 2. Create a variable that contains both the count and the dash separator, i.e. "12 - "
-    let preEntries = " "+ countEl.innerText + " - " + " ";
-    saveEl.innerText += preEntries;
+    let preEntries = count + ' - ';
+    saveEl.textContent += preEntries;
     // 3. Render the variable in the saveEl using innerText
     // NB: Make sure to not delete the existing content of the paragraph
     console.log(count)
